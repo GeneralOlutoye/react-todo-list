@@ -8,7 +8,8 @@ const App = () => {
   const [todos, setTodos] = useState([])
 
 
-  // function to populate to do list 
+  // function to populate to do list
+  
   const addTodo = (text) => {
     let id = Math.floor(Math.random()* 1000) + 1
     let todo = {id:id, text:text, completed:false}
@@ -16,6 +17,8 @@ const App = () => {
     console.log(newTodos);
     setTodos(newTodos)
   }
+
+
   const deleteTodo =(id)=>{
     let updatedTodos = [...todos].filter((todo) => todo.id !== id)
     setTodos(updatedTodos)

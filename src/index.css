@@ -4,14 +4,23 @@
  font-family: 'Muli', serif; 
 }
 
+body{
+    background-color: hsl(209, 23%, 60%)!important;
+    height: 100vh!important;
+    min-height: 100vh!important;
+}
+
 .addInput{
     padding: 10px;
-    width: 40%;
+    width: 60%;
     margin-bottom: 1rem;
     border: none;
+    color: black;
 }
 .btn{
-    padding: 10px;
+    color: black;
+    margin-left: -33px;
+    padding: 12px;
     border: none;
     padding: 10px;
     font-weight: 800;
@@ -24,19 +33,22 @@
     transition: all 0.3s ease-out;
     box-shadow: 0px 0px 3px 1px #fff;
     width: 90%;
+    font-weight: 700;
+    font-size: larger;
     border-radius: 3px;
     padding: 5px;
     margin: 0.5rem auto;
     text-align: start;
-    display: flex;  
+    display: flex;
+    text-transform: capitalize;
 }
 
 .times{
     color: red;
 }
 .rowCompleted {
-    background-color: rgb(233, 33, 33);
-    border: 1px solid rgb(29, 27, 27);
+    background-color: rgb(236, 83, 83);
+    border: 1px solid #fff;
     border-radius: 3px;
     width: 90%;
     padding: 5px;
@@ -59,14 +71,21 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 45%;
-    min-height: 400px;
+    min-height: 60vh;
+    padding: 20px;
     border: 1px solid #fff;
-    background-color: rgb(68, 82, 163);
+    background-color:  hsl(205, 77%, 27%);
     text-align: center;
-    margin: 128px auto;
-    box-shadow: 4px 8px 10px rgb(68, 82, 163);
+    margin: 15vh auto;
+    box-shadow: 4px 8px 10px  hsl(205, 86%, 17%);
     padding-bottom: 32px;
+    color: #fff!important;
+}
+
+.todo h1{
     color: #fff;
+    font-weight: 700;
+    font-size: 35px;
 }
 .icons{
     margin-left: auto;
