@@ -88,10 +88,30 @@ body{
     font-weight: 700;
     font-size: 35px;
 }
+
 .icons{
     margin-left: auto;
     cursor: pointer;
 }
 .icons span{
     margin-right: 1rem;
+}
+
+@media screen and(max-width: 450px) { 
+    .todo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%!important;
+        min-height: 100vh;
+        padding: 20px;
+        border: 1px solid #fff;
+        background-color:  hsl(205, 77%, 27%);
+        text-align: center;
+        margin: 15vh auto;
+        box-shadow: 4px 8px 10px  hsl(205, 86%, 17%);
+        padding-bottom: 32px;
+        color: #fff!important;
+    }
+    
 }
