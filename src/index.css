@@ -71,7 +71,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     width: 45%;
-    min-height: 60vh;
+    min-height: 80vh;
     padding: 20px;
     border: 1px solid #fff;
     background-color:  hsl(205, 77%, 27%);
@@ -112,6 +112,11 @@ body{
         box-shadow: 4px 8px 10px  hsl(205, 86%, 17%);
         padding-bottom: 32px;
         color: #fff!important;
+    }
+    .todo h1{
+        color: #fff;
+        font-weight: 300!important;
+        font-size: 15px!important;
     }
     
 }
