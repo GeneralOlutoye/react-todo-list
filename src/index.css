@@ -7,7 +7,7 @@
 body{
     background-color: hsl(209, 23%, 60%)!important;
     height: 100vh!important;
-    min-height: 100vh!important;
+    /* min-height: 100vh!important; */
 }
 
 .addInput{
@@ -76,7 +76,7 @@ body{
     border: 1px solid #fff;
     background-color:  hsl(205, 77%, 27%);
     text-align: center;
-    margin: 15vh auto;
+    margin: 3rem auto;
     box-shadow: 4px 8px 10px  hsl(205, 86%, 17%);
     padding-bottom: 32px;
     color: #fff!important;
