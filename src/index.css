@@ -106,7 +106,7 @@ body{
         flex-direction: column;
         justify-content: flex-start;
         width: 100vw!important;
-        min-height: 100vh;
+        min-height: 95vh;
         padding: 10px;
         border: 1px solid #fff;
         background-color:  hsl(205, 77%, 27%);
