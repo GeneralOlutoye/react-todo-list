@@ -30,7 +30,7 @@ const Nav = (props) => {
         className="addInput"
         type="text"
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Add a Task"
+        placeholder="Make A To-do List"
       /> 
 
       <button type="submit" className="btn"> <FaPlus /> </button>

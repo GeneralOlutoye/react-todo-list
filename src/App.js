@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <div className='todo'>
-      <h1>Make A List</h1>
+      <h1>LISTIFY</h1>
       <Nav addTodo={addTodo}></Nav>
       {
         todos.map((todo)=>{
