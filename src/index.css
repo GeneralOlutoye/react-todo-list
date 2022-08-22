@@ -6,8 +6,11 @@
 
 body{
     background-color: hsl(209, 23%, 60%)!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     height: 100vh!important;
-    /* min-height: 100vh!important; */
+    min-height: 100vh!important;
 }
 
 .addInput{
@@ -97,18 +100,18 @@ body{
     margin-right: 1rem;
 }
 
-@media screen and(max-width: 450px) { 
+@media screen and (max-width: 450px) { 
     .todo{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 100%!important;
+        width: 100vw!important;
         min-height: 100vh;
-        padding: 20px;
+        padding: 10px;
         border: 1px solid #fff;
         background-color:  hsl(205, 77%, 27%);
         text-align: center;
-        margin: 15vh auto;
+        margin: 0 auto;
         box-shadow: 4px 8px 10px  hsl(205, 86%, 17%);
         padding-bottom: 32px;
         color: #fff!important;
@@ -116,7 +119,7 @@ body{
     .todo h1{
         color: #fff;
         font-weight: 300!important;
-        font-size: 15px!important;
+        font-size: 25px!important;
     }
     
 }
