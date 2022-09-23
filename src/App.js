@@ -18,11 +18,13 @@ const App = () => {
     setTodos(newTodos)
   }
 
-
+  {/*function that deletes items on the list when todo.id does not equal to id*/}
   const deleteTodo =(id)=>{
     let updatedTodos = [...todos].filter((todo) => todo.id !== id)
     setTodos(updatedTodos)
   } 
+  
+  {/*function to show todo has been completed*/}
 
   const markTodo =(id)=>{
     let updatedTodos = todos.map((todo) => {
