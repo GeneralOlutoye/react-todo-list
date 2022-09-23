@@ -8,7 +8,7 @@ const Nav = (props) => {
   const [input, setInput] = useState("")
 
 
-  // function to handle adding of to-do list
+  // function handling input submit when input does not equal empty
   
   const submitHandler = (e)=>{
     if (input === '') {
